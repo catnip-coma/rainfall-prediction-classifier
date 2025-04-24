@@ -42,10 +42,10 @@ This project is a machine learning-based classifier that predicts whether it wil
 
 ##  Model Building
 
-| Model                | Accuracy | True Positive Rate |
+| Model               | Accuracy | True Positive Rate |
 |---------------------|----------|--------------------|
 | Logistic Regression | 84%      | 51%                |
-| Random Forest       | 83%      | 50% ✅              |
+| Random Forest       | 83%      | 50%                |
 
 👉 *Random Forest performed better due to its robustness with non-linear relationships and higher ability to handle noise.*
 
