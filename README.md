@@ -53,8 +53,9 @@ This project is a machine learning-based classifier that predicts whether it wil
 
 ##  Key Takeaways
 
-- **Humidity at 9am**, **Evaporation**, and **WindGustDir** were found less efficient in predicting rainfall.
-- Random Forest outperformed Logistic Regression in both accuracy and true positive rate.
+- **Feature importance analysis** showed that some meteorological variables, such as **Humidity at 9 AM**, **Evaporation**, and **Wind Gust Direction**, were less effective predictors.
+- **Logistic Regression** slightly outperformed **Random Forest** in accuracy (**84% vs. 83%**), but both models struggled with recall for rainy days.
+- **True Positive Rate (TPR)** for predicting rain is moderate (**~51%**), indicating that the model misses some actual rainy days.
 - Real-world application in **agriculture**, **weather reporting**, and **disaster prevention systems**.
 
 ---
